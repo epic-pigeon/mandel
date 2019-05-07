@@ -7,6 +7,7 @@ var generation = 0;
 window.onload = main;
 
 function main() {
+    document.querySelector("#menu").onclick = () => alert("Menu here");
     document.querySelector("#start").onclick = init;
     document.querySelector("#stop").onclick = function () {
         canvas.onclick = () => false;
